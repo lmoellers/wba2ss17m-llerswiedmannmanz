@@ -1,0 +1,25 @@
+{
+"name": "wba2ss17",
+"version":"0.0.1",
+"description":"kickoffaufgaben.json",
+"dependencies": {
+"chalk": "^1.1.3"
+},
+"devDependencies": {},
+"scripts": {
+  "test":"test"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/lmoellers/wba2ss17m-llerswiedmannmanz.git"
+},
+"keywords":[
+"kickoff"
+],
+"author": "[Team4] Laura Möllers, Miriam Wiedmann, Anna-Katherina Manz",
+"license": "ISC",
+"bugs": {
+"url": "https://github.com/lmoellers/wba2ss17m-llerswiedmannmanz/issues"
+},
+"homepage": "https://github.com/lmoellers/wba2ss17m-llerswiedmannmanz/wiki"
+}
