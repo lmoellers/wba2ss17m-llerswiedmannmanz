@@ -4,4 +4,4 @@
 
 - Laura Möllers
 - Miriam Wiedmann
-- Anna-Katherina Manz
+- Anna-Katharina Manz
