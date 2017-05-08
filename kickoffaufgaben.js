@@ -13,16 +13,23 @@ var chalk = require('chalk');
   }
 
   staedte.cities.sort(function(a,b){
-  if(a.population>b.population){
+  if(a.population > b.population){
   return -1;
   }
-  else if(a.population<b.population){
+  else if(a.population < b.population){
   return 1;
   }
   else{
   return 0;
   }
 });
+
+for(var i = 0; i< staedte.cities.length;i++){
+console.log(chalk.blue("name:"+staedte.cities[i].name));
+console.log(chalk.blue("country:"+staedte.cities[i].country));
+console.log(chalk.blue("population:"+staedte.cities[i].population));
+console.log("\n-----------------\n")
+}
 
 fs.writeFile(__dirname + '/staedte_sortiert.json', JSON.stringify(staedte), function(err){
   if(err) {
